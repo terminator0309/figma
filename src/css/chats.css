@@ -1,0 +1,69 @@
+.chats > h1 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.chats {
+  display: flex;
+  flex: 0.38;
+  flex-direction: column;
+  margin: 30px;
+}
+.chats-header {
+  margin-left: 10px;
+  display: flex;
+  letter-spacing: 1px;
+  justify-content: space-between;
+}
+.create_btn {
+  padding: 20px;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 0px;
+  border-radius: 6px;
+  box-shadow: 0.1px 0.1px 20px #7cb8f7;
+  background: linear-gradient(142.25deg, #7cb8f7 20.3%, #2a8bf2 74.69%);
+  height: min-content;
+  cursor: pointer;
+}
+
+.chat-search {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.MuiTextField-root {
+  width: 100%;
+  background-color: white;
+  border-radius: inherit;
+  border: none !important;
+  box-shadow: 3px 0px 100px rgba(180, 180, 180, 0.5);
+}
+.MuiTextField-root:focus {
+  border: none !important;
+}
+
+.item {
+  background-color: white;
+  padding: 30px;
+  font-size: 16px;
+  color: #707c97;
+  margin: 40px 0px;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+.item-header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item-header > img {
+  height: 50px;
+  border-radius: 25px;
+}
+
+.item-header > h3 {
+  color: #0d1c2e;
+  margin-left: 20px;
+}

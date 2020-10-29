@@ -1,0 +1,40 @@
+.sidebar {
+  background-color: #fff;
+  border-right: 2px solid #fafbff;
+  box-shadow: 10px 0px 50px #d3daeb;
+  flex: 0.15;
+  min-width: 180px;
+}
+
+.sidebar > center > img {
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #707c97;
+  font-family: "TTNorms-Bold";
+  font-size: 12px;
+  margin-left: 15px;
+}
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.sidebarOption:hover {
+  background: -webkit-linear-gradient(142.25deg, #7cb8f7 20.3%, #2a8bf2 74.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-left: 1px blue;
+  color: #2a8bf2;
+  transition: all 200ms ease-out;
+}
+
+.sidebarOption > h3 {
+  font-weight: 500;
+  color: #707c97;
+  margin-right: 25px;
+}

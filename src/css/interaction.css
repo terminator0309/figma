@@ -1,0 +1,90 @@
+.interaction {
+  display: flex;
+  flex: 0.47;
+  width: 100%;
+  margin: 50px;
+}
+
+.chat-room {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.chat-room-header {
+  display: flex;
+  padding: 20px;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 2px solid rgb(214, 214, 214, 0.5);
+  background-color: #fafbff;
+}
+
+.chat-room-header > img {
+  height: 50px;
+  border-radius: 25px;
+}
+
+.chat-room-header > h4 {
+  margin-left: 15px;
+}
+
+.chat-room-header-btn {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat-room-header-btn > span > .MuiButton-root {
+  margin: 5px;
+  background-color: white;
+  box-shadow: 0px 4px 5px 0px rgba(112, 124, 151, 0.1);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  color: rgb(112, 124, 151);
+}
+
+.chat-room-input {
+  display: flex;
+  width: 100%;
+}
+
+.chat-room-input-msg {
+  align-self: center;
+}
+
+.chat-room-input > .chat-room-input-add > .MuiButton-root {
+  margin: 5px;
+  font-size: 12px;
+  background: var(--app-background);
+  box-shadow: 0px 4px 5px 0px rgba(112, 124, 151, 0.1);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  color: white;
+}
+.chat-room-input > .chat-room-input-send > .MuiButton-root {
+  font-size: 12px;
+  background: var(--app-background);
+  box-shadow: 0px 4px 5px 0px rgba(112, 124, 151, 0.1);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  color: white;
+}
+
+.chat-room-input > .chat-room-input-send {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.chat-room-msg {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-room-input {
+  margin-top: 360px;
+}
